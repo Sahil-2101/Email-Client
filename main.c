@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * @author Sahil Khatri
+ */
+
 // Resolves the address of the server using hostname and port
 int resolve_address(const char *hostname, const char *port, struct addrinfo **servinfo) {
     struct addrinfo hints;
